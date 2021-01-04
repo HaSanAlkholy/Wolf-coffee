@@ -677,11 +677,13 @@ nav .nav-bottom .nav-icons .nav-lang .setting-anchor {
 }
 
 nav .nav-bottom .nav-icons .nav-lang .setting-anchor .icon {
-  width: 35px;
-  height: 35px;
-  border: 1px solid #bdbdbd;
-  border-radius: 100%;
   margin-inline-end: 7px;
+}
+
+nav .nav-bottom .nav-icons .nav-lang .setting-anchor .icon img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
 }
 
 nav .nav-bottom .nav-icons .user .setting-anchor::after {
@@ -848,11 +850,12 @@ nav .nava .nava-content .nava-head {
     margin-inline-end: 0;
   }
   nav .nava .nava-content .nava-head .top-settings .top-setting .icon {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #bdbdbd;
-    border-radius: 100%;
     margin-inline-end: 7px;
+  }
+  nav .nava .nava-content .nava-head .top-settings .top-setting .icon img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
   }
   nav .nava .nava-content .nava-head .top-settings .top-dropDown {
     left: 0;

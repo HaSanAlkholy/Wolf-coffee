@@ -490,11 +490,12 @@ nav {
                     font-size: 13px;
 
                     .icon {
-                        width: 35px;
-                        height: 35px;
-                        border: 1px solid rgb(189, 189, 189);
-                        border-radius: 100%;
                         margin-inline-end: 7px;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 100%;
+                        }
                     }
                 }
             }
@@ -692,11 +693,12 @@ nav {
                             }
 
                             .icon {
-                                width: 35px;
-                                height: 35px;
-                                border: 1px solid rgb(189, 189, 189);
-                                border-radius: 100%;
                                 margin-inline-end: 7px;
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                    border-radius: 100%;
+                                }
                             }
                         }
                         .top-dropDown {
