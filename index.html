@@ -15,10 +15,9 @@
   </head>
 
   <body class="overflow">
-
     <div class="pre-loader">
       <div class="content">
-        <img src="./images/logo.png" alt="logo" />
+        <img src="./images/logo.svg" alt="logo" />
         <div class="progress-bar">
           <span class="bar"><span class="progress"></span></span>
         </div>
@@ -30,7 +29,7 @@
         <div class="c2">
           <div class="nav-logo">
             <a href="#">
-              <img src="./images/logo.png" alt=".." />
+              <img src="./images/logo.svg" alt=".." />
             </a>
           </div>
           <div class="nava" id="nava">
@@ -42,11 +41,14 @@
               <div class="nava-head">
                 <div class="top-settings">
                   <div class="top-setting nav-lang">
-                    <span class="setting-anchor">اللغة العربية</span>
+                    <span class="setting-anchor">
+                      <span class="icon flex-center"
+                        ><img src="./images/icons/ar.png" alt="ar"
+                      /></span>
+                      العربية</span
+                    >
                     <div class="top-dropDown">
-                      <a href="index.html" class="drop-link fixall"
-                        >اللغة العربية</a
-                      >
+                      <a href="index.html" class="drop-link fixall"> العربية</a>
                       <a href="index-en.html" class="drop-link fixall"
                         >English</a
                       >
@@ -60,10 +62,13 @@
               </div>
               <ul>
                 <li class="active"><a href="#"> الرئيسية</a></li>
-                <li><a href="#"> عن وولف</a></li>
-                <li><a href="./store.html"> المتجر</a></li>
-                <li><a href="#"> انضم الينا</a></li>
-                <li><a href="#"> اخبار نا</a></li>
+                <li><a href="#"> من نحن</a></li>
+                <li><a href="#"> خدماتنا</a></li>
+                <li><a href="#"> منتجاتنا</a></li>
+                <li><a href="#"> بيع الجملة</a></li>
+                <li><a href="./store.html"> المتجر الالكترونى</a></li>
+                <li><a href="#"> الاخبار</a></li>
+                <li><a href="#"> التوظيف</a></li>
                 <li><a href="#"> اتصل بنا</a></li>
               </ul>
             </div>
@@ -72,30 +77,16 @@
             <div class="menu" id="nava-icon">
               <span class="lnr lnr-menu ico"></span>
             </div>
-            <div class="search-btn" id="search-btn">
-              <span class="lnr lnr-magnifier ico"></span>
-            </div>
-            <div class="cart" id="cart-btn">
-              <span class="lnr lnr-cart ico"></span>
-            </div>
-            <div class="top-settings user">
-              <div class="top-setting">
-                <span class="setting-anchor"
-                  ><span class="lnr lnr-user ico"></span
-                ></span>
-                <div class="top-dropDown">
-                  <a href="#" class="drop-link fixall">تسجيل الدخول</a>
-                  <a href="#" class="drop-link fixall">تسجيل جديد</a>
-                </div>
-              </div>
-            </div>
             <div class="top-settings nav-lang">
               <div class="top-setting">
-                <span class="setting-anchor">اللغة العربية</span>
+                <span class="setting-anchor">
+                  <span class="icon flex-center"
+                    ><img src="./images/icons/ar.png" alt="ar"
+                  /></span>
+                  العربية</span
+                >
                 <div class="top-dropDown">
-                  <a href="./index.html" class="drop-link fixall"
-                    >اللغة العربية</a
-                  >
+                  <a href="./index.html" class="drop-link fixall"> العربية</a>
                   <a href="./index-en.html" class="drop-link fixall">English</a>
                 </div>
               </div>
@@ -104,25 +95,6 @@
         </div>
       </div>
     </nav>
-
-    <div class="search-form" id="search-form">
-      <div class="close-search" id="close-search">
-        <span class="lnr lnr-cross"></span>
-      </div>
-      <div class="search">
-        <form action="#">
-          <input
-            type="text"
-            id="search-input"
-            placeholder="عن ماذا تبحث؟"
-            autocomplete="false"
-          />
-          <button class="searching">
-            <span class="lnr lnr-magnifier"></span>
-          </button>
-        </form>
-      </div>
-    </div>
 
     <header>
       <div class="swiper-container">
@@ -160,7 +132,7 @@
       <div class="c2">
         <div class="categories-content">
           <div class="categories-head">
-            <h2>متجر القهوة</h2>
+            <h2>منتجاتنا</h2>
           </div>
           <div class="categories-body">
             <div class="category" data-aos="fade-down" data-aos-delay="0">
@@ -190,9 +162,11 @@
       <div class="c2">
         <div class="about-content">
           <div class="about-item">
-            <div class="head" data-aos="fade-left" data-aos-delay="0"><img src="./images/about/1.jpg" alt=".." /></div>
+            <div class="head" data-aos="fade-left" data-aos-delay="0">
+              <img src="./images/about/1.jpg" alt=".." />
+            </div>
             <div class="body" data-aos="fade-left" data-aos-delay="200">
-              <h3>عن محمصة وولف</h3>
+              <h3>محمصة وولف للقهوة المختصة</h3>
               <p>
                 تقدم محمصة وولف أفضل أنواع البن للقهوة المختصة لكوب مثالي بنكهات
                 مميزة <br />
@@ -206,20 +180,25 @@
             </div>
           </div>
           <div class="about-item">
-            <div class="head" data-aos="fade-left" data-aos-delay="0"><img src="./images/about/2.jpg" alt=".." /></div>
+            <div class="head" data-aos="fade-left" data-aos-delay="0">
+              <img src="./images/about/2.jpg" alt=".." />
+            </div>
             <div class="body" data-aos="fade-left" data-aos-delay="200">
-              <h3>حلول الجملة</h3>
+              <h3>بيع الجملة</h3>
               <p>
-                سواء كنت شركة ناشئة أو مقهى يبحث عن التميز محمصة وولف تعني<br>
+                سواء كنت شركة ناشئة أو مقهى يبحث عن التميز محمصة وولف تعني<br />
                 المزيد من التسليم السريع وضمان توفير قهوة محمصة بطريقة مثالية.
-                ومميزة.<br><br> سيتم القيام بجميع الاستفسارات بالجملة عن طريق <br> التواصل في
-                الواتس اب أو الإيميل
+                ومميزة.<br /><br />
+                سيتم القيام بجميع الاستفسارات بالجملة عن طريق <br />
+                التواصل في الواتس اب أو الإيميل
               </p>
               <a href="#" class="more flex-center">المزيد</a>
             </div>
           </div>
           <div class="about-item">
-            <div class="head" data-aos="fade-left" data-aos-delay="0"><img src="./images/about/3.jpg" alt=".." /></div>
+            <div class="head" data-aos="fade-left" data-aos-delay="0">
+              <img src="./images/about/3.jpg" alt=".." />
+            </div>
             <div class="body" data-aos="fade-left" data-aos-delay="200">
               <h2>
                 انضم الينا الأن <br />
@@ -314,7 +293,11 @@
               </div>
             </form>
           </div>
-          <div class="social flex-center" data-aos="fade-left" data-aos-delay="0">
+          <div
+            class="social flex-center"
+            data-aos="fade-left"
+            data-aos-delay="0"
+          >
             <div class="social-head">
               <h3>وسائل التواصل الاجتماعي</h3>
               <p>تابعنا على وسائل التواصل الاجتماعي ليصلك جديدنا</p>
@@ -351,23 +334,23 @@
         <div class="credit">
           <div class="footer-list">
             <ul>
-              <li class="active"><a href="#">الرئيسية</a></li>
               <li><a href="#">من نحن</a></li>
-              <li><a href="#">المتجر</a></li>
-              <li><a href="#">الخصوصية</a></li>
+              <li><a href="#">خدماتنا</a></li>
+              <li><a href="#">منتجاتنا</a></li>
+              <li><a href="#">بيع الجملة</a></li>
+              <li><a href="./store.html">المتجر الالكترونى</a></li>
+              <li><a href="#">الاخبار</a></li>
+              <li><a href="#">التوظيف</a></li>
               <li><a href="#">اتصل بنا</a></li>
             </ul>
           </div>
-          <p>جميع الحقوق محفوظة، محمصة وولف للقهوة المختصة &copy; 2020</p>
+          <p>جميع الحقوق محفوظة، شركة الذئب المميز &copy; 2020</p>
           <p>
             تصميم وتطوير
             <a href="https://tasawk.com.sa/" target="_blank"
               ><img src="./images/icons/footer.png" alt=".."
             /></a>
           </p>
-          <div class="payment">
-            <img src="./images/footer/pay.png" alt=".." />
-          </div>
         </div>
       </div>
     </footer>
