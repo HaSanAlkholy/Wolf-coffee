@@ -3,9 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2406.98 1630.23" style="enable-background:new 0 0 2406.98 1630.23;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
+	.st0{fill:transparent;}
 	.st1{fill:#F7BC60;}
-	.st2{fill:#ffffff}
+	.st2{fill:black}
 </style>
 <pattern  x="-46.51" y="1815.12" width="69" height="69" patternUnits="userSpaceOnUse" id="Polka_Dot_Pattern" viewBox="2.13 -70.9 69 69" style="overflow:visible;">
 	<g>
@@ -744,7 +744,7 @@
 		</g>
 	</g>
 </pattern>
-<g>
+<g  class="st0">
 	<rect width="2406.98" height="1630.23" />
 	<g>
 		<path class="st2" d="M886.89,607.57l112.54-478.05l192.62,201.46L900.78,622.26L886.89,607.57z M923.79,646.59l510.7-517.07
